@@ -1,2 +1,12 @@
-# IBM-Watson-Speech-To-Text
-This express app will use watsons speech to text engine to record a users voice and display to screen
+#How to run
+
+First run the server.js 
+
+```
+node src/server.js
+```
+
+build and start the react applicaiton 
+
+`` npm start ```
+
