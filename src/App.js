@@ -4,13 +4,10 @@ import './App.css';
 
 import recognizeMic from 'watson-speech/speech-to-text/recognize-microphone';
 
-
 class App extends Component {
-
   constructor(){
     super();
     this.state = {};
-    this.header = {};
   }
 
   onClickButton(){
@@ -54,9 +51,7 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Welcome to React</h1>
           </header>
-
           <button id="button" onClick={this.onClickButton.bind(this)}>Listen To Microphone</button>
-          <div className="App-Text">{this.header.text}</div> 
         <div className="App-Text">{this.state.text}</div> 
         </div>
       );
